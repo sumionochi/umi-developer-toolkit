@@ -5,6 +5,7 @@ _Dual‑VM scaffold + browser IDE for **Move & EVM** on the Umi Network_
 [![npm](https://img.shields.io/npm/v/create-umi-app?color=cb3837&label=npm)](https://www.npmjs.com/package/create-umi-app)
 ![CI](https://img.shields.io/badge/tests-passing-brightgreen.svg)
 ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+git clone https://github.com/sumionochi/umi-developer-toolkit
 
 ---
 
