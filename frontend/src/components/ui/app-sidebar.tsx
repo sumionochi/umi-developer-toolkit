@@ -57,12 +57,6 @@ export function AppSidebar({
           active={activeTab}
         />
       </SidebarContent>
-
-      <SidebarFooter className="w-full">
-        <Link href="#" className="w-full p-2 cursor-pointer">
-          <Button onClick={() => onTabSelect?.("settings")} className="w-full cursor-pointer">Settings</Button>
-        </Link>
-      </SidebarFooter>
       <SidebarRail />
     </Sidebar>
   )
