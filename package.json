@@ -1,6 +1,6 @@
 {
   "name": "create-umi-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bin": {
     "create-umi-app": "bin/create-umi-app.js"
   },
@@ -15,14 +15,11 @@
     "test:move": "cd contracts/move && aptos move test",
     "test:evm": "hardhat test",
     "faucet": "node scripts/faucet.js",
-
     "chain:evm": "hardhat node --hostname 0.0.0.0 --port 8545",
     "chain:move": "aptos node run-localnet --test-dir aptos_data",
     "chain:local": "concurrently \"npm:chain:evm\" \"npm:chain:move\"",
-
     "deploy:evm:local": "hardhat run scripts/deploy-evm-local.js --network localhost",
     "deploy:move:local": "aptos move publish --package-dir contracts/move --dev",
-
     "dev:local": "npm run chain:local & npm run deploy:evm:local & npm run deploy:move:local"
   },
   "keywords": [
